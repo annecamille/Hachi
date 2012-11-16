@@ -1,0 +1,66 @@
+/*
+ Theme Name:     Hachi
+ Theme URI:      http: //example.com/
+ Description:    Tema filho para o responsive
+ Author:         Anne Camille
+ Author URI:     http: //exemplo.com/sobre/
+ Template:       responsive
+ Version:        0.0.1
+ */
+@import url("../responsive/style.css");
+
+body {
+	background: url(images/body-bg.png);
+}
+/* ESTRUTURA 
+--------------------------------------------------------------*/
+#bg-content {
+	background: url(images/content-bg.png);
+	padding: 10px 0;
+	margin: 0;
+}
+#header {
+	background: url(images/top-bg.png) repeat-x bottom;
+	padding: 54px 0 20px 0;
+}
+#footer{
+	padding: 6px 0 0 0;
+	max-width:	none;
+	background: url(images/footer-topbg.png) repeat-x;
+}
+#footer-wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+}
+.clr{
+	clear:	both;
+}
+
+/* MENU
+--------------------------------------------------------------*/
+.menu {
+	background:		none;
+}
+.menu a {
+	border-left: none;
+	font-size:	17px;
+	border-bottom: 3px solid #FFF;
+	text-shadow: none;
+}
+.menu a:hover, .menu .current_page_item a {
+	border-bottom:	3px solid #fce5aa;
+	background:	#f5c74d;
+}
+/* WIDGET
+--------------------------------------------------------------*/
+#widgets {
+	margin-top: -11px;
+	background: url('images/bg-widget.png') no-repeat left bottom;
+}
+.home #widgets {
+	margin-top: -30px;
+}
+.widget-wrapper {
+	background:	none;
+	border:	none;
+}
